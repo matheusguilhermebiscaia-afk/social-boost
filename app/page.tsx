@@ -10,7 +10,7 @@ export default function Home() {
         <nav aria-label="Navegação principal">
           <a href="#inicio">Início</a><a href="#solucao">O que você recebe</a><a href="#processo">Como funciona</a><a href="#sobre">Sobre</a>
         </nav>
-        <a className="whatsapp small" href="https://wa.me/5541999240694?text=Olá%20Social%20Boost!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20um%20orçamento." target="_blank" rel="noreferrer">Falar no WhatsApp <Arrow /></a>
+        <a className="whatsapp small" href="https://wa.me/5541997425358?text=Olá%20Social%20Boost!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20um%20orçamento." target="_blank" rel="noreferrer">Falar no WhatsApp <Arrow /></a>
       </header>
 
       <section className="hero shell" id="inicio">
@@ -19,7 +19,7 @@ export default function Home() {
           <h1>Seu negócio merece mais do que só um <em>perfil nas redes.</em></h1>
           <p>Criamos sites profissionais, rápidos e estratégicos que transformam visitantes em clientes.</p>
           <div className="actions">
-            <a className="button primary" href="https://wa.me/5541999240694?text=Olá%20Social%20Boost!%20Quero%20criar%20um%20site%20para%20o%20meu%20negócio." target="_blank" rel="noreferrer">Quero meu site <Arrow /></a>
+            <a className="button primary" href="https://wa.me/5541997425358?text=Olá%20Social%20Boost!%20Quero%20criar%20um%20site%20para%20o%20meu%20negócio." target="_blank" rel="noreferrer">Quero meu site <Arrow /></a>
             <a className="button secondary" href="#processo">Como funciona <span>↓</span></a>
           </div>
           <div className="proof"><span>⚡ Sites rápidos</span><i /><span>▣ Responsivos</span><i /><span>◎ Feitos para vender</span></div>
@@ -100,11 +100,15 @@ export default function Home() {
         <span className="eyebrow light"><i /> Vamos tirar sua ideia do papel?</span>
         <h2>O próximo site incrível<br/>pode ser <em>o seu.</em></h2>
         <p>Conte um pouco sobre o seu negócio e receba uma proposta sem compromisso.</p>
-        <a className="button primary" href="https://wa.me/5541999240694?text=Olá%20Social%20Boost!%20Quero%20criar%20um%20site%20para%20o%20meu%20negócio." target="_blank" rel="noreferrer">Pedir meu orçamento <Arrow /></a>
+        <div className="actions">
+          <a className="button primary" href="https://wa.me/5541997425358?text=Olá%20Social%20Boost!%20Quero%20criar%20um%20site%20para%20o%20meu%20negócio." target="_blank" rel="noreferrer">Pedir meu orçamento <Arrow /></a>
+          <a className="button secondary" href="mailto:socialboostdigitalbr@gmail.com">Enviar e-mail <Arrow /></a>
+          <a className="button secondary" href="https://www.instagram.com/socialboostdigitalbr/" target="_blank" rel="noreferrer">Instagram <Arrow /></a>
+        </div>
       </div><div className="rocket" aria-hidden="true"><span>🚀</span><i/><b>+</b></div></section>
 
-      <footer className="shell"><a className="brand" href="#inicio"><span>Social</span><b>Boost</b><i>↗</i></a><p>Sites que impulsionam negócios.</p><div><a href="#solucao">O que você recebe</a><a href="#processo">Como funciona</a><a href="#contato">Contato</a></div><small>© 2026 Social Boost</small></footer>
-      <a className="floating" href="https://wa.me/5541999240694?text=Olá%20Social%20Boost!%20Quero%20saber%20mais%20sobre%20a%20criação%20de%20sites." target="_blank" rel="noreferrer" aria-label="Chamar no WhatsApp">◉</a>
+      <footer className="shell"><a className="brand" href="#inicio"><span>Social</span><b>Boost</b><i>↗</i></a><p>Sites que impulsionam negócios.</p><div><a href="mailto:socialboostdigitalbr@gmail.com">E-mail</a><a href="https://www.instagram.com/socialboostdigitalbr/" target="_blank" rel="noreferrer">@socialboostdigitalbr</a><a href="https://wa.me/5541997425358" target="_blank" rel="noreferrer">WhatsApp</a></div><small>© 2026 Social Boost</small></footer>
+      <a className="floating" href="https://wa.me/5541997425358?text=Olá%20Social%20Boost!%20Quero%20saber%20mais%20sobre%20a%20criação%20de%20sites." target="_blank" rel="noreferrer" aria-label="Chamar no WhatsApp">◉</a>
     </main>
   );
 }
